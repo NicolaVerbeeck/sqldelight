@@ -4,3 +4,7 @@ jdk:
 install:
   - ./gradlew :sqldelight-compiler:dialect:publishToMavenLocal
   - ./gradlew :dialects:sqlite-3-35:publishToMavenLocal
+  - ./gradlew :dialects:sqlite-3-30:publishToMavenLocal
+  - ./gradlew :dialects:sqlite-3-25:publishToMavenLocal
+  - ./gradlew :dialects:sqlite-3-24:publishToMavenLocal
+  - ./gradlew :dialects:sqlite-3-18:publishToMavenLocal
